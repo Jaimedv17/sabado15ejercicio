@@ -1,0 +1,117 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  background-color: hsla(0, 0%, 95%, 0.678);
+  width: 60%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.header{
+  line-height: 2.5rem;
+}
+
+.title2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.spanColor{
+  color: #4e42d4;
+  font-weight: 800;
+}
+
+.title1{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.subTile{
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.fronInformFlex{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.form{
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.inform{
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+}
+
+textarea{
+  margin-top: 7px;
+  margin-bottom: 2rem;
+  height: 4rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #e2e2e2;
+}
+
+input{
+  margin-top: 7px;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 2px solid #e2e2e2;
+  padding-left: 5px;
+}
+
+.informacion{
+  line-height: 2rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+span{
+  font-weight: bold;
+}
+
+.btn{
+  height: 3rem;
+  width: 100%;
+  color: white;
+  background-color: #4e42d4;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn2{
+  padding: 10px 2rem;
+  color: white;
+  background-color: #4e42d4;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
